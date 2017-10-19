@@ -1,5 +1,5 @@
 #include <strdio.h>
-
+// estructura de decision (repaso)
 int main(){
 	int a,b;
 	int mayor,menor;

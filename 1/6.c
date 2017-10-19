@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// estructuras de decision y el operador modulo
 int main(){
 	int n;
 

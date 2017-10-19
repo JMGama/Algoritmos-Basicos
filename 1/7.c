@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// operador de divicion y de modulo
 int main(){
 	long f;
 	int dia, mes, anio;

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// tipos de variables e impresion de datos
 int main(){
 
 	char nombre[] = "Jose Manuel";

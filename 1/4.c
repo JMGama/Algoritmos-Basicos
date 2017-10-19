@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// operaciones con variables
 int main(){
 	int a,b,c;
 
