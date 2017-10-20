@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// uso de estructuras de decision
 int main(){
 	int a,b;
 	double cociente;
