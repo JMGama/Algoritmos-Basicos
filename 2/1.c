@@ -1,4 +1,4 @@
-#include <strdio.h>
+#include <stdio.h>
 // estructura de decision (repaso)
 int main(){
 	int a,b;
