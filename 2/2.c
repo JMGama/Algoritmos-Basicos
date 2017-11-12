@@ -1,38 +1,52 @@
 #include <stdio.h>
 // if anidados
-int main(){
+int main()
+{
 	int a, b, c;
 	int mayor, medio, menor;
 
 	printf("Ingresa tres valores: ");
 	scanf("%d %d %d",&a, &b, &c);
 
-	if (a>b) {
-		if (a>c) {
+	if (a>b)
+	{
+		if (a>c)
+		{
 			mayor = a;
 			if (b>c) {
 				menor = c;
 				medio = b;
-			}else {
+			}
+			else 
+			{
 				menor = b;
 				medio = c;
 			}
-		}else {
+		}
+		else 
+		{
 			mayor = c;
 			menor = b;
 			medio = a;
 		}
-	}else {
-		if (b>c) {
+	}
+	else 
+	{
+		if (b>c) 
+		{
 			mayor = b;
-			if (a>c) {
+			if (a>c) 
+			{
 				menor = c;
 				medio = a;
-			}else {
+			}else 
+			{
 				menor = a;
 				medio = c;
 			}		
-		}else {
+		}
+		else 
+		{
 			mayor = c;
 			menor = a;
 			medio = b;

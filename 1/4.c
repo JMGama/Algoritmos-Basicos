@@ -1,6 +1,7 @@
 #include <stdio.h>
 // operaciones con variables
-int main(){
+int main()
+{
 	int a,b,c;
 
 	printf("Ingrese dos valores enteros: ");

@@ -1,26 +1,32 @@
 #include <stdio.h>
-
 // definimos los macros
 #define MAX(x,y) x>y?x:y
 #define MIN(x,y) x<y?x:y
 
-int main() {
+int main() 
+{
 	int a, b, c;
 	int menor, medio, mayor;
 
 	printf("Ingresa tres valores: ");
 	scanf("%d %d %d", &a, &b, &c);
 
-	if(a>b && a>c) {
+	if(a>b && a>c) 
+	{
 		mayor = a;
 		medio = MAX(b,c);
 		menor = MIN(b,c);
-	}else {
-		if(b>a && b>c){
+	}
+	else 
+	{
+		if(b>a && b>c)
+		{
 			mayor = b;
 			medio = MAX(a,c);
 			menor = MIN(a,c);
-		}else {
+		}
+		else 
+		{
 			mayor = c;
 			medio = MAX(a,b);
 			menor = MIN(a,b);

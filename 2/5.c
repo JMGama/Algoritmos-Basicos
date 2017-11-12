@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+// seleccion multiple con Switch
 int main()
 {
 	int nroDia;
@@ -9,7 +9,8 @@ int main()
 	printf("Ingrese dia de la semana: ");
 	scanf("%d", &nroDia);
 
-	switch(nroDia) {
+	switch(nroDia) 
+	{
 		case 1:
 			strcpy(dia, "Lunes"); // asignamos a la variable dia la cadena "Lunes"
 			break;

@@ -1,6 +1,7 @@
 #include <stdio.h>
 // operador de divicion y de modulo
-int main(){
+int main()
+{
 	long f;
 	int dia, mes, anio;
 	int resto;

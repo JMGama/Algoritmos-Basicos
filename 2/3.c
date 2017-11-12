@@ -1,22 +1,29 @@
 #include <stdio.h>
 // if-inline
-int main(){
+int main()
+{
 	int a, b, c;
 	int mayor, medio, menor;
 
 	printf("Ingresa tres valores: ");
 	scanf("%d %d %d",&a, &b, &c);
 
-	if (a>b && a>c) {
+	if (a>b && a>c)
+	{
 		mayor = a;
 		medio = b>c?b:c;
 		menor = b<c?b:c;
-	}else {
-		if (b>a && b>c) {
+	}
+	else
+	{
+		if (b>a && b>c)
+		{
 			mayor = b;
 			medio = a>c?a:c;
 			menor = a<c?a:c;
-		}else {
+		}
+		else
+		{
 			mayor = c;
 			medio = a>b?a:b;
 			menor = a<b?a:b;

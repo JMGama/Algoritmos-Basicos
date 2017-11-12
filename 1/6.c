@@ -1,6 +1,7 @@
 #include <stdio.h>
 // estructuras de decision y el operador modulo
-int main(){
+int main()
+{
 	int n;
 
 	printf("Ingrese un valor: ");
@@ -9,7 +10,9 @@ int main(){
 	if (n%2==0)
 	{
 		printf("%d es par\n", n);
-	}else{
+	}
+	else
+	{
 		printf("%d es impar\n", n);
 	}
 

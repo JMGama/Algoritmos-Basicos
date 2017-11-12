@@ -1,7 +1,7 @@
 #include <stdio.h>
 // tipos de variables e impresion de datos
-int main(){
-
+int main()
+{
 	char nombre[] = "Jose Manuel";
 	int edad = 21;
 	double altura = 1.79;

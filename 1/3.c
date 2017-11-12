@@ -1,6 +1,7 @@
 #include <stdio.h>
 // asignacion de varibales y captura por teclado
-int main(){
+int main()
+{
 	char nombre[20];
 	int edad;
 	double altura;
